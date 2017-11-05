@@ -1,0 +1,6 @@
+1. How does a program read the cvMat object, in particular, what is the order of the pixel structure?
+
+A progarm read the cvMat object by use a matrix and pointer(cvMatName.at(x,y)), because cvMat create a new two-dimensional matrix has the int rows, int cols, int types.cvMat* cvCreateMat ( int rows, int cols, int type );
+
+For the pixel structure, every pixel contains red, green, blue elements to make different color.
+ 
